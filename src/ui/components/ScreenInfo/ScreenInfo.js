@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Divider, InputNumber, Space} from "antd";
 import ScreenInfoDisplay from "./ScreenInfoDisplay";
+import ScreenInfoCanvas from "./ScreenInfoCanvas";
 
 export default function ScreenInfo(props){
 
@@ -28,6 +29,7 @@ export default function ScreenInfo(props){
                 diagonal={diagonal}
                 resolution={resolution}
             />
+            <ScreenInfoCanvas pixelSize={pixelSize}/>
         </>
 
     )
