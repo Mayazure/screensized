@@ -29,7 +29,7 @@ export default function ScreenInfo(props){
                 diagonal={diagonal}
                 resolution={resolution}
             />
-            <ScreenInfoCanvas pixelSize={pixelSize}/>
+            <ScreenInfoCanvas pixelSize={pixelSize} physicalSize={physicalSize}/>
         </>
 
     )
